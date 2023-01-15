@@ -1,11 +1,11 @@
 # bladder-segmentation
 
 Description:
-This Matlab code provides a graphical user interface (GUI) for segmenting the bladder in medical images. The GUI allows the user to load a set of bladder MR image, select the bladder region semi-automatically, and save the segmented image.
+This Matlab code provides a graphical user interface (GUI) for segmenting the bladder in DICOM MR images. The GUI allows the user to load a set of bladder MR image, select the bladder region semi-automatically, and save the segmented image mask to obtain bladder volume.
 
 Requirements:
 This code requires Matlab 2016b or later; 
-Image Processing Toolbox (thresh_tool.m);
+Image Processing Toolbox (thresh_tool.m); 
 The volume calculation is done using bladder_volume_code.m 
 
 Usage:
